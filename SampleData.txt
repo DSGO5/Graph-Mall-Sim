@@ -1,0 +1,165 @@
+*ADD SHOPS AND EDGES* 
+
+#SHOP1
+NUM: 1
+NAME: A
+CATEGORY: clothing
+LOCATION: floor 1, aisle 2
+RATING: 1
+
+#SHOP2
+NUM: 2
+NAME: B
+CATEGORY: clothing
+LOCATION: floor 1, aisle 1
+RATING: 3
+
+#SHOP3
+NUM: 3
+NAME: C
+CATEGORY: electronics
+LOCATION: floor 1, aisle 3
+RATING: 5
+
+#SHOP4
+NUM: 4
+NAME: D
+CATEGORY: electronics
+LOCATION: floor 2, aisle 2
+RATING: 2
+
+#SHOP5
+NUM: 5
+NAME: E
+CATEGORY: electronics
+LOCATION: floor 2, aisle 1
+RATING: 3
+
+#SHOP6
+NUM: 6
+NAME: F
+CATEGORY: food
+LOCATION: floor 2, aisle 3
+RATING: 4
+
+#SHOP7
+NUM: 7
+NAME: G
+CATEGORY: food
+LOCATION: floor 3, aisle 1
+RATING: 2
+
+#SHOP8
+NUM: 8
+NAME: H
+CATEGORY: food 
+LOCATION: floor 3, aisle 2
+RATING: 4
+
+#SHOP9
+NUM: 9
+NAME: I
+CATEGORY: food
+LOCATION: floor 3, aisle 3
+RATING: 2
+
+#SHOP10
+NUM: 10
+NAME: J
+CATEGORY: jewellery
+LOCATION: floor 4, aisle 2
+RATING: 3
+
+#SHOP11
+NUM: 11
+NAME: K
+CATEGORY: jewellery
+LOCATION: floor 3, aisle 4
+RATING: 5
+
+#SHOP12
+NUM: 12
+NAME: L
+CATEGORY: jewellery
+LOCATION: floor 5, aisle 2
+RATING: 1
+
+#EDGE1 
+FROM: 1
+TO: 2
+LABEL: AB
+
+#EDGE2
+FROM: 1
+TO: 3
+LABEL: AC
+
+#EDGE3
+FROM: 1
+TO: 4
+LABEL: AD
+
+#EDGE4
+FROM: 2
+TO: 5
+LABEL: BE
+
+#EDGE5
+FROM: 3
+TO: 6
+LABEL: CF
+
+#EDGE6
+FROM: 4
+TO: 5 
+LABEL: DE
+
+#EDGE7
+FROM: 4
+TO: 6
+LABEL: DF
+
+#EDGE8
+FROM: 4
+TO: 8
+LABEL: DH
+
+#EDGE9
+FROM: 5 
+TO: 7 
+LABEL: EG
+
+#EDGE10
+FROM: 6
+TO: 9 
+LABEL: FI
+
+#EDGE11
+FROM: 7
+TO: 8
+LABEL: GH
+
+#EDGE12
+FROM: 8
+TO: 9
+LABEL: HI
+
+#EDGE13
+FROM: 7 
+TO: 10
+LABEL: GJ
+
+#EDGE14
+FROM: 8
+TO: 10 
+LABEL: HJ
+
+#EDGE15
+FROM: 9
+TO: 10 
+LABEL: IJ
+
+#EDGE16
+FROM: 9 
+TO: 11
+LABEL: IK
